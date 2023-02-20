@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: 1px solid #000;
+  padding: 0.5em;
+  cursor: pointer;
+  background-color: lightgrey;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-flex {
+  display: flex;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  align-items: center;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+header {
+  margin: 1em 0;
+  padding: 1em;
+  border: 2px solid #000;
+  width: 97.5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+  flex: 1;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border: none;
+  flex: 1;
+  max-width: 17em;
+}
+
+.nav-menu .vl {
+  border-left: 2px solid black;
+  height: 1.25em;
+}
+
+.nav-list-item {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-list-item:hover {
+  color: gray;
+  font-weight: 700;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.date {
+  text-align: end;
+  width: 97.5%;
+}
+
+main {
+  width: 100%;
+}
+
+.all-books {
+  flex-direction: column;
+  width: 97.5%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.all-books h1 {
+  margin: 0 0 2em 0;
+}
+
+.all-books ul {
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.all-books ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  text-transform: capitalize;
+}
+
+.all-books ul li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.all-books ul li:hover {
+  background-color: rgb(133, 107, 107);
+}
+
+.new-book {
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+form {
+  padding: 2em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input {
+  margin: 0 0 1em 0;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.submit {
+  align-self: flex-end;
+}
+
+.contact-info {
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+.contact-info h1 {
+  align-self: center;
+}
+
+.contact-info * {
+  margin: 1em 0;
+}
+
+footer {
+  border: 2px solid #000;
+  width: 97.5%;
+  padding: 1em;
+  margin-top: auto;
+  margin-bottom: 1em;
+}

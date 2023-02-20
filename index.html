@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Awesome Books</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="navbar-brand">Awesome Books</a>
+      <ul class="nav-menu">
+        <li id="nav-item-list" class="nav-list-item font-weight-bold">All Books</li>
+        <li class="vl"></li>
+        <li id="nav-item-add-new" class="nav-list-item">Add New Book</li>
+        <li class="vl"></li>
+        <li id="nav-item-contact" class="nav-list-item">Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <p id="date" class="date"></p>
+
+  <main id="main">
+
+    <section id="all-books" class="all-books">
+      <h1>All Awesome Books</h1>
+      <ul id="books-container"></ul>
+    </section>
+
+    <section id="create-new-book" class="new-book display-none">
+      <h1>Add a new book</h1>
+      <form action="submit" id="form">
+        <input id="title" type="text" class="form-input" placeholder="Title" required>
+        <input id="author" type="text" class="form-input" placeholder="Author" required>
+        <button id="add-new-book" class="submit">Add New Book</button>
+      </form>
+    </section>
+
+    <section id="contact" class="contact-info display-none">
+      <h1>Contact information</h1>
+      <p>Do have any questions or you just want to say "Hello"? Can reach out to us!</p>
+      <ul>
+        <li>Our e-mail: <a href="mailto:musmanaslam520@gmail.com">musmanaslam520@gmail.com</a></li>
+        <li>Our Github: <a href="https://github.com/MuhammadUsmanAslam">Muhammad Usman Aslam</a></li>
+        <li>Our Linkedin: <a href="https://www.linkedin.com/in/muhammad-usman-aslam/">Muhammad Usman Aslam</a></li>
+        <li>Our Twitter: <a href="https://twitter.com/M_Usman_Aslam">Muhammad Usman Aslam</a></li>
+        <li>Our Facebook: <a href="https://web.facebook.com/muhammad.usman.aslam.awara">Muhammad Usman Aslam</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>Copyright @2023</footer>
+  <!-- JavaScript File -->
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
